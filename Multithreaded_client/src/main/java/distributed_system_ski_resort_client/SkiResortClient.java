@@ -38,7 +38,7 @@ public class SkiResortClient {
     private static final int MAX_NUM_REQUESTS = 10000;
     private static final int NUM_REQUESTS_PER_THREAD = 1000;
     private static List<Long> latencies = Collections.synchronizedList(new ArrayList<>());
-    static String csvFilePath = "C:\\Users\\Dell\\Documents\\SkiResort_Coen6731\\latency.csv";
+    static String csvFilePath = "C:\\Users\\Dell\\Documents\\SkiResort_Coen6731\\latency.csv"; //Change the csv path
     File csvWriter = new File(csvFilePath);
     
 
